@@ -7,3 +7,21 @@ body {
   margin: 20px;
   padding: 0;
 }
+
+.square {
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 0;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 120px;
+  height: 120px;
+}
